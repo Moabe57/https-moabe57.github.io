@@ -1,3 +1,8 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #292929
+}
+
 .container {
     width: 100vw;
     max-width: 40rem;
@@ -10,10 +15,6 @@
     padding: 0;
 }
 
-.container>* {
-    width: 100%;
-}
-
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -24,73 +25,50 @@
     align-items: center;
 }
 
+.container .img2 {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 150px;
+    box-shadow: 2px 1px 3px rgb(31, 31, 31);
+
+    transform: rotate(15deg);
+}
+
+.container .img1 {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    width: 150px;
+    box-shadow: 2px 1px 3px rgb(31, 31, 31);
+
+    transform: rotate(-8deg);
+}
+
 h1 {
-    font-size: 3.4rem;
-    color: #56a5eb;
+    position: absolute;
+    top: 250px;
+    font-size: 2.4rem;
+    color: #c409a5;
     margin-bottom: .4rem;
+    text-align: center;
+}
+h2 {
+    position: absolute;
+    top: 300px;
+    font-size: 1.4rem;
+    color: #f5bded;
+    margin-bottom: .4rem;
+    text-align: center;
 }
 
-.hidden {
-    display: none;
-}
-
-.btn[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-    color: #007bff;
-    background: rgb(248, 248, 248);
-    border: 1px solid #007bff;
-}
-
-.container #go_home {
-    font-size: 20px;
-    font-weight: 500;
-    color: #007bff;
-    padding: 15px 35px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    background: #fff;
-    border: 1px solid #007bff;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.container #go_home:hover {
-    color: #fff;
-    background: #007bff;
-    transform: scale(1.025);
-}
-
-input[type=text] {
-    width: 70%;
-    padding: 14px 20px;
-    margin: 4px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-button {
-    width: 25%;
-    background-color: #56a5eb;
-    color: white;
-    padding: 14px 20px;
-    margin: 4px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #007bff;
-}
-
-.container form {
-    width: 100%;
-    margin-bottom: 5.5rem;
+h3 {
+    position: absolute;
+    top: 290px;
+    font-size: 3.4rem;
+    color: #c409a5;
+    margin-bottom: .4rem;
+    text-align: center;
 }
 
 .container #end {
