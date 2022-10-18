@@ -116,6 +116,47 @@ h3 {
     100% {transform: translateY(0%) rotate(10deg); }
 }
 
+.core5 {
+    position: absolute;
+    width: 40px;
+    top: -10px;
+    left: 110px;
+
+    animation: animation3 50s;
+}
+
+@keyframes animation3 {
+    0% {transform: translateY(1400%) rotate(-25deg); }
+    100% {transform: translateY(0%) rotate(15deg); }
+}
+
+.core6 {
+    position: absolute;
+    width: 60px;
+    top: -80px;
+    left: 230px;
+
+    animation: animation2 40s;
+}
+
+.core4 {
+    position: absolute;
+    width: 45px;
+    top: -20px;
+    left: 200px;
+
+    animation: animation3 30s;
+}
+
+.core3 {
+    position: absolute;
+    width: 35px;
+    top: -20px;
+    left: 80px;
+
+    animation: animation1 25s;
+}
+
 .container #end {
     width: 100%;
 }
